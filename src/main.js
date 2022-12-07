@@ -6,6 +6,7 @@ import {
   faPhone,
   faEnvelope,
   faClock,
+  faPlay,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faFacebookF,
@@ -22,7 +23,8 @@ library.add(
   faFacebookF,
   faTwitter,
   faLinkedinIn,
-  faUser
+  faUser,
+  faPlay
 );
 Vue.component("font-awesome-icon", FontAwesomeIcon);
 

@@ -26,4 +26,10 @@ export default {
 :root {
   --bs-font-sans-serif: Montserrat;
 }
+img {
+  width: 100%;
+}
+p {
+  color: #4e4f52;
+}
 </style>
