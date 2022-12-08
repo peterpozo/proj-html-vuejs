@@ -33,7 +33,7 @@ export default {
 
 <style lang="scss" scoped>
 .AdvisoryPerformance {
-  padding: 5rem 0;
+  padding: 130px 0;
 
   h2 {
     font-weight: 800;

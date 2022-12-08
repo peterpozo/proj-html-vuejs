@@ -41,7 +41,7 @@
                   <button class="button-66" type="button">get in touch</button>
                 </div>
                 <div class="col">
-                  <button class="button-66" type="button">get in touch</button>
+                  <button class="button-66" type="button">read more</button>
                 </div>
               </div>
             </div>
@@ -60,7 +60,7 @@
                   <button class="button-66" type="button">get in touch</button>
                 </div>
                 <div class="col">
-                  <button class="button-66" type="button">get in touch</button>
+                  <button class="button-66" type="button">read more</button>
                 </div>
               </div>
             </div>
@@ -79,7 +79,7 @@
                   <button class="button-66" type="button">get in touch</button>
                 </div>
                 <div class="col">
-                  <button class="button-66" type="button">get in touch</button>
+                  <button class="button-66" type="button">read more</button>
                 </div>
               </div>
             </div>

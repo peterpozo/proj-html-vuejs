@@ -7,7 +7,7 @@
         <div class="col mb-5">
           <h2><span class="bottom">Results</span> in Numbers</h2>
         </div>
-        <div class="col-8 mb-4">
+        <div class="col mb-4">
           <div class="row">
             <div class="col">
               <span class="number">128</span><br />
@@ -41,7 +41,7 @@ export default {
 <style lang="scss" scoped>
 .ResultInNumbers {
   background: linear-gradient(black, black), url(../assets/images/bg-4.jpg);
-  padding: 7rem 0;
+  padding: 130px 0;
   background-position: center;
   background-size: cover;
   background-blend-mode: saturation;
