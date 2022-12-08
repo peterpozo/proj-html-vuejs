@@ -1,7 +1,10 @@
 <template>
   <div>
+    <!-- Header  -->
     <HeaderPage />
+    <!-- Main  -->
     <MainPage />
+    <!-- Footer  -->
     <FooterPage />
   </div>
 </template>
