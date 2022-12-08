@@ -65,18 +65,20 @@ span {
 }
 
 .button-66 {
+  background-color: #058283;
   text-transform: uppercase;
   font-weight: 500;
   border-radius: 4px;
-  border: 0;
-  background-color: #058283;
+  border: 1px solid #058283;
   box-sizing: border-box;
   color: #fff;
   cursor: pointer;
   display: inherit;
   font-size: 18px;
   line-height: 24px;
+  margin: 0;
   padding: 10px 20px;
+  position: relative;
   text-align: center;
   user-select: none;
   -webkit-user-select: none;
@@ -87,8 +89,7 @@ span {
 
 .button-66:hover {
   background-color: transparent;
-  border: 1px solid #058283;
   transform: translateY(-2px);
-  color: #bcbdbd;
+  color: #058283;
 }
 </style>

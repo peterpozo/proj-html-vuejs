@@ -213,6 +213,7 @@ h2 {
   padding: 0.3rem 0.6rem;
   border-radius: 0.2rem;
   font-weight: 800;
+  color: #058283;
 }
 
 .nav-item {
