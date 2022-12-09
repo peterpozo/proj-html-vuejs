@@ -6,6 +6,7 @@
     <TeamOfExperts />
     <LatestNews />
     <KnowFirst />
+    <GetTouch />
   </main>
 </template>
 
@@ -16,6 +17,7 @@ import ExcellenceService from "@/components/ExcellenceService.vue";
 import TeamOfExperts from "@/components/TeamOfExperts.vue";
 import LatestNews from "@/components/LatestNews.vue";
 import KnowFirst from "@/components/KnowFirst.vue";
+import GetTouch from "@/components/GetTouch.vue";
 export default {
   name: "MainPage",
   components: {
@@ -25,6 +27,7 @@ export default {
     TeamOfExperts,
     LatestNews,
     KnowFirst,
+    GetTouch,
   },
 };
 </script>
