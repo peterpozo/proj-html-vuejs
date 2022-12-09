@@ -11,6 +11,7 @@ import {
   faArrowRight,
   faChevronDown,
   faLocationDot,
+  faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faFacebookF,
@@ -32,7 +33,8 @@ library.add(
   faNetworkWired,
   faArrowRight,
   faChevronDown,
-  faLocationDot
+  faLocationDot,
+  faChevronRight
 );
 Vue.component("font-awesome-icon", FontAwesomeIcon);
 
