@@ -1,11 +1,17 @@
 <template>
-  <div></div>
+  <footer>
+    <FooterTop />
+  </footer>
 </template>
 
 <script>
+import FooterTop from "@/components/FooterTop.vue";
 export default {
   name: "FooterPage",
+  components: {
+    FooterTop,
+  },
 };
 </script>
 
-<style></style>
+<style lang="scss"></style>
