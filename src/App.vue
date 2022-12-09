@@ -33,6 +33,6 @@ img {
   width: 100%;
 }
 p {
-  color: #4e4f52;
+  color: #606d75;
 }
 </style>
