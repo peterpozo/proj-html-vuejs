@@ -21,7 +21,14 @@
         </div>
       </div>
       <!--image card start-->
-      <CardsComponents />
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <CardsComponents />
+          <CardsComponents />
+          <CardsComponents />
+        </div>
+      </div>
+
       <!--image card end-->
     </div>
   </section>
@@ -91,5 +98,18 @@ span {
   background-color: transparent;
   transform: translateY(-2px);
   color: #058283;
+}
+.swiper-container {
+  padding: 0 15px;
+}
+
+.swiper-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  transition-property: transform;
+  box-sizing: content-box;
 }
 </style>
