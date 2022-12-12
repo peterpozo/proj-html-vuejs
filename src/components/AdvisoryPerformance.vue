@@ -19,6 +19,7 @@
             class="imgVideo"
           />
           <font-awesome-icon icon="fa-solid fa-play" />
+          <font-awesome-icon icon="fa-solid fa-play" class="clone" />
         </div>
       </div>
     </div>
@@ -64,5 +65,21 @@ export default {
   z-index: 999;
   font-size: 5rem;
   color: #ffffffcc;
+}
+
+.fa-play:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.clone {
+  margin: -17.5px -10px 0;
+  color: #05838388;
+  opacity: 0.75;
+}
+
+.clone:hover {
+  transform: scale(1.1);
+  opacity: 1;
 }
 </style>

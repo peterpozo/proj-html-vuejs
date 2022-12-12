@@ -40,44 +40,18 @@
         </div>
         <div class="col-12 col-lg-9 p-0 footer-right">
           <div class="row items">
-            <div class="col-12 col-lg-4 item">
+            <div
+              class="col-12 col-lg-4 item"
+              v-for="eleFooter in arrFooter"
+              :key="eleFooter"
+            >
               <div class="card">
-                <h4 class="mt-0">About</h4>
+                <h4 class="mt-0">{{ eleFooter.title }}</h4>
                 <a href="#!"
                   ><font-awesome-icon
-                    icon="fa-solid fa-chevron-right"
+                    :icon="eleFooter.icon"
                     class="arrow-right"
-                  />The Company</a
-                >
-                <a href="#!"
-                  ><font-awesome-icon
-                    icon="fa-solid fa-chevron-right"
-                    class="arrow-right"
-                  />The Company</a
-                >
-                <a href="#!"
-                  ><font-awesome-icon
-                    icon="fa-solid fa-chevron-right"
-                    class="arrow-right"
-                  />The Company</a
-                >
-                <a href="#!"
-                  ><font-awesome-icon
-                    icon="fa-solid fa-chevron-right"
-                    class="arrow-right"
-                  />The Company</a
-                >
-                <a href="#!"
-                  ><font-awesome-icon
-                    icon="fa-solid fa-chevron-right"
-                    class="arrow-right"
-                  />The Company</a
-                >
-                <a href="#!"
-                  ><font-awesome-icon
-                    icon="fa-solid fa-chevron-right"
-                    class="arrow-right"
-                  />The Company</a
+                  />{{ eleFooter.paragrafo }}</a
                 >
               </div>
             </div>
@@ -91,6 +65,27 @@
 <script>
 export default {
   name: "FooterTop",
+  data() {
+    return {
+      arrFooter: [
+        {
+          icon: "fa-chevron-right",
+          title: "Abaout",
+          paragrafo: "The Company",
+        },
+        {
+          icon: "fa-chevron-right",
+          title: "Service",
+          paragrafo: "Audit & Assurance",
+        },
+        {
+          icon: "fa-chevron-right",
+          title: "Support",
+          paragrafo: "Responsability",
+        },
+      ],
+    };
+  },
 };
 </script>
 
@@ -130,6 +125,10 @@ export default {
       margin: 0 0 0.5rem;
       color: #c0c3d0;
       text-decoration: none;
+    }
+
+    a:hover {
+      color: #058283;
     }
 
     .arrow-right {

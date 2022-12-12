@@ -12,6 +12,11 @@ import {
   faChevronDown,
   faLocationDot,
   faChevronRight,
+  faBriefcase,
+  faChartSimple,
+  faPlane,
+  faGlobe,
+  faInbox,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faFacebookF,
@@ -34,7 +39,12 @@ library.add(
   faArrowRight,
   faChevronDown,
   faLocationDot,
-  faChevronRight
+  faChevronRight,
+  faBriefcase,
+  faChartSimple,
+  faPlane,
+  faGlobe,
+  faInbox
 );
 Vue.component("font-awesome-icon", FontAwesomeIcon);
 
